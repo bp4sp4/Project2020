@@ -1,4 +1,4 @@
-# Project2020
+# Project2020 - 박상훈
 ## 4월 5일 실습내용
->HTML 기본구조 학습 및 실습
+>HTML 기본구조 학습 및 실습 <br>
  index.html 생성
