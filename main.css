@@ -38,9 +38,21 @@ ul{
       text-align: center;
   }
   .article-bg2 {
-    height: 550px;
+    height: 650px;
     padding: 15px;
     background-color: rgb(14, 104, 175);
+    text-align: center;
+}
+.article-bg3 {
+    height: 450px;
+    padding: 15px;
+    background-color: rgb(131, 150, 153);
+    text-align: center;
+}
+.article-bg4 {
+    height: 450px;
+    padding: 15px;
+    background-color: rgb(48, 199, 98);
     text-align: center;
 }
   /* box model test */
