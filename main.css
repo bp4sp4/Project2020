@@ -1,6 +1,6 @@
 /*
-  *File Name: index.html v0.4.0
-  *Update : 2020.04.23
+  *File Name: index.html v0.5.0
+  *Update : 2020.04.27
   *Author : bp4sp4
 */
 /* logo */
@@ -107,4 +107,44 @@ border-radius: 50%;
 }
 .b-radius4 {
 border-radius: 100%;
+}
+/* 테이블 색상 */
+.article-tbc{
+    background-color: rgb(156, 156, 156);
+    padding: 50px;
+    
+}
+thead{
+    background-color: rgb(104, 104, 175);
+    color: rgb(255, 255, 255);
+    font-weight: bold
+}
+
+tfoot{
+    background-color: #3f87ab;
+    color: #fff;
+}
+tbody{
+    background-color: rgb(255, 255, 255);
+}
+
+table{
+    width: 20%;
+    height: 15%;
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+}
+td,
+th{
+    border: 1px solid rgb(0, 0, 0);
+}
+td{
+    text-align: center;
+}
+caption{
+    border-color: rgb(0, 0, 0);
+    font-size: large;
+}
+.tr-font{
+font-weight: bold;
 }

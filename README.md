@@ -1,4 +1,7 @@
 # Project2020 - 박상훈
+## 4월 27일 테이블 태그연습 및 과제
+>table tab 연습<br>
+
 ## 04월 23일 멀티미디어 태그 연습 
 >img tag 연습 <br>
 audio tag 연습<br>
