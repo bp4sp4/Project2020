@@ -1,7 +1,9 @@
 # Project2020 - 박상훈
-
 ## 5월13일 메뉴바 전체 스타일
->menu tag 연습 
+>menu tag 연습 <br>
+>GhostButton<br> 
+>css grid<br>
+>copyright
 
 ## 4월 27일 테이블 태그연습 및 과제
 >table tab 연습<br>

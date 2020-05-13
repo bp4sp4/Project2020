@@ -1,5 +1,5 @@
 <!--
-  *File Name: index.html v0.7.0
+  *File Name: index.html v0.8.0
   *Update : 2020.05.13
   *Author : bp4sp4
 -->
@@ -13,9 +13,25 @@
      <link rel="stylesheet" href="./vendor/normalize.css">
      <!-- CSS의 외부 적용 방식 -->
      <link rel="stylesheet" href="main.css">
+       <!-- menu style -->
+  <link rel="stylesheet" href="main.css">
     </head>
 <body>
-  <header>박상훈의 홈페이지</header>
+  <header class="full-bg">
+    <div class="container">
+      <div class="header-title">
+          ParkSangHun 홈페이지
+          <p class="header-sub-title">
+            박상훈의 홈페이지 입니다.<br />
+            2020년 1학기 실습 내용을 정리했습니다.
+          </p>
+      </div>
+  <!-- Ghost Button -->
+      <div>
+        <a class="ghost" href="">GhostButton Sample </a>
+      </div>
+    </div>
+  </header>
   <nav class="fixed-top menu">
     <ul>
       <li class="logo"><a href="#">박상훈</a></li>
@@ -33,6 +49,7 @@
       <li><a href="#">메뉴3</a></li>
     </ul>
   </nav>
+  <a name="box"></a>
   <article class="article-bg1">
     <h1>4월11일 박스모델 연습</h1>
     <section>
@@ -41,6 +58,7 @@
       <div class="box3">박스3</div>
     </section>
   </article>
+  <a name="image"></a>
   <article class="article-bg2">
     <h1>4월23일 멀티미디어 태그 연습</h1>
     <h2>img tag연습</h2>
@@ -58,6 +76,7 @@
       <img class="img-size2 b-radius3" src="./images/switzerland-5065859_640.jpg" alt="자연의 위엄">
       <img class="img-size2 b-radius4" src="./images/switzerland-5065859_640.jpg" alt="자연의 위엄">  
    </section>
+   <a name="audio-video"></a>
    <article class="article-bg3">
     <h2>audio video tag연습</h2>
      <section>
@@ -71,12 +90,14 @@
         </video>
       </section>
    </article>
+   <a name="youtube"></a>
    <article class="article-bg4">
     <h2>유튜브 동영상 삽입 연습</h2>
      <section>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/3qkZdRKeYP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      </section>
    </article>
+   <a name="table"></a>
    <article class="article-tbc">
      <table>
        <caption><h2>4월27일 : 테이블 연습</h2></caption>
@@ -113,6 +134,22 @@
          <td colspan="4">tfoot 태그영역</td>
        </tfoot>
      </table>
+   </article>
+   <a name="css-grid"></a>
+   <article class="grid-container">
+     <div class="grid-item item1">CSS Grid</div>
+     <div class="grid-item item2">2</div>
+     <div class="grid-item item3">3</div>
+     <div class="grid-item">4</div>
+     <div class="grid-item">5</div>
+     <div class="grid-item">6</div>
+     <div class="grid-item">7</div>
+     <div class="grid-item">8</div>
+     <div class="grid-item">9</div>
+     <div class="grid-item item10">10</div>
+     <div class="grid-item item11">11</div>
+     <div class="grid-item item12">12</div>
+     <div class="grid-item item13">13</div>
    </article>
   <footer class="footer-design">COPYRIGHT&copy;2020 ParkSangHun HOMEPAGE</footer>  
 </body>
