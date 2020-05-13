@@ -1,6 +1,6 @@
 <!--
-  *File Name: index.html v0.5.0
-  *Update : 2020.04.27
+  *File Name: index.html v0.7.0
+  *Update : 2020.05.13
   *Author : bp4sp4
 -->
 <!DOCTYPE html>
@@ -14,13 +14,21 @@
      <!-- CSS의 외부 적용 방식 -->
      <link rel="stylesheet" href="main.css">
     </head>
-
 <body>
   <header>박상훈의 홈페이지</header>
-  <nav>
+  <nav class="fixed-top menu">
     <ul>
-      <li class="logo">홍길동</li>
-      <li><a href="#">메뉴1</a></li>
+      <li class="logo"><a href="#">박상훈</a></li>
+      <li><a href="#">One Page Site</a>
+        <ul>
+          <li><a href="#box">box model</a></li>
+          <li><a href="#image">image</a></li>
+          <li><a href="#audio-video">audio-video</a></li>
+          <li><a href="#youtube">youtube</a></li>
+          <li><a href="#table">table</a></li>
+          <li><a href="#css-grid">css-grid</a></li>
+        </ul>
+      </li>
       <li><a href="#">메뉴2</a></li>
       <li><a href="#">메뉴3</a></li>
     </ul>
@@ -106,7 +114,6 @@
        </tfoot>
      </table>
    </article>
-  <aside>어사이드 영역</aside>
-  <footer>여기는 바닥 영역</footer>  
+  <footer class="footer-design">COPYRIGHT&copy;2020 ParkSangHun HOMEPAGE</footer>  
 </body>
 </html>
