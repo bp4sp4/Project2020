@@ -1,4 +1,11 @@
 # Project2020 - 박상훈
+## 5월 20 일 bootstrap.html생성
+>Alerts 연습<br>
+>button 연습<br>
+>Collapse 연습<br>
+>modal 연습<br>
+>progress 연습<br>
+>svg 연습 
 ## 5월13일 메뉴바 전체 스타일
 >menu tag 연습 <br>
 >GhostButton<br> 
