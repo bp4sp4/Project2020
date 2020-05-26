@@ -1,5 +1,5 @@
 # Project2020 - 박상훈
-##5월26일 dom 연습
+## 5월26일 dom 연습
 >dom태그 연습
 
 ## 5월 20 일 bootstrap.html생성
