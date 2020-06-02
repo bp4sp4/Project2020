@@ -1,4 +1,7 @@
 # Project2020 - 박상훈
+## 6월2일 jquery연습
+>jquery 연습
+
 ## 5월26일 dom 연습
 >dom태그 연습
 
